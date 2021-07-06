@@ -2,14 +2,13 @@
     "version": "0.0.6-test",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/infrahq/infra/releases/download/v0.0.6-test/infra_0.0.6-test_windows_x86_64.zip",
+            "url": "https://releases.infrahq.com/infra/v0.0.6-test/infra_0.0.6-test_windows_x86_64.zip",
             "bin": [
                 "infra.exe"
             ],
-            "hash": "87133eded84f26727f6128475ea1537977d66a5eb77cb32fd58a51d46be6fb08"
+            "hash": "f3783e2f9057c048f38cdab71be4cdefe2648a9151dbd509955fdf7bce3edbd1"
         }
     },
     "homepage": "https://infrahq.com",
-    "license": "Apache 2.0",
     "description": "Infra"
 }
