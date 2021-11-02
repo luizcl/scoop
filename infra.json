@@ -1,12 +1,12 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "architecture": {
         "64bit": {
-            "url": "https://releases.infrahq.com/infra/v0.4.1/infra_0.4.1_windows_x86_64.zip",
+            "url": "https://releases.infrahq.com/infra/v0.4.2/infra_0.4.2_windows_x86_64.zip",
             "bin": [
                 "infra.exe"
             ],
-            "hash": "55e70d3cd344f13d811b68f6ed42f93132940d7cef4ba527ab9577947aa06fb7"
+            "hash": "bdd186170f5a7ed65b193425c371d7ee37e1a1853f965ca81121ac518d3f06cd"
         }
     },
     "homepage": "https://infrahq.com",
