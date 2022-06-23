@@ -3,10 +3,10 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.infrahq.com/infra/v0.13.4/infra_0.13.4_windows_x86_64.zip",
+            "hash": "febe9310ee52affc61f076f724905ddf21c8360fc12cf9af0f579539b376e712",
             "bin": [
                 "infra.exe"
-            ],
-            "hash": "febe9310ee52affc61f076f724905ddf21c8360fc12cf9af0f579539b376e712"
+            ]
         }
     },
     "homepage": "https://infrahq.com",
