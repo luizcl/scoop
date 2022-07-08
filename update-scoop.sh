@@ -25,7 +25,7 @@ CHECKSUMS=$(mktemp)
 cleanup() { rm $CHECKSUMS; }
 trap cleanup 0
 
-curl -o$CHECKSUMS -fs $BASE_URL/v$NEW_VERSION/infra-checksums.txt
+curl -o$CHECKSUMS -fsSL $BASE_URL/v$NEW_VERSION/infra-checksums.txt
 
 PACKAGE=infra
 PART=${NEW_VERSION##*-}
@@ -37,7 +37,7 @@ OLD_VERSION=$(jq -r .version <$PACKAGE.json)
 EXPRS="s/$OLD_VERSION/$NEW_VERSION/g"
 while read -r LINE; do
     set -- $LINE
-    EXPRS="$EXPRS; /$2/{n;s/hash \".*\"/hash \"$1\"/;}"
+    EXPRS="$EXPRS; /$2/{n;s/\"hash\": \".*\"/\"hash\": \"$1\"/;}"
 done <$CHECKSUMS
 
 echo $EXPRS | sed $SED_ARGS -f- $PACKAGE.json
