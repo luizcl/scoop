@@ -8,7 +8,7 @@ usage() {
 }
 
 SED_ARGS='-i'
-BASE_URL='https://releases.infrahq.com/infra'
+BASE_URL='https://github.com/infrahq/infra/releases/download'
 while getopts 'b:c:hn' OPTION; do
     case $OPTION in
         b) BASE_URL=$OPTARG ;;
