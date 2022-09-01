@@ -1,9 +1,9 @@
 {
-    "version": "0.14.4",
+    "version": "0.15.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/infrahq/infra/releases/download/v0.14.4/infra_0.14.4_windows_x86_64.zip",
-            "hash": "9e632a062788b2319faca1f392c9c891bd6f2c76eccaca5dfd4c28c3313d32a0",
+            "url": "https://github.com/infrahq/infra/releases/download/v0.15.0/infra_0.15.0_windows_x86_64.zip",
+            "hash": "59fcc00daba98bb3ccf19cf1765b68e043a0656b1d36a7e7a2d18adf257b19ee",
             "bin": [
                 "infra.exe"
             ]
